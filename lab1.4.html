@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+
+<script>
+  let dat = prompt('ціле число у діапазоні 1-69', 0);
+  var fir = Number(dat.slice(0, 1));
+  var sec = Number(dat.slice(1, 2));
+  function des(s){
+    switch (s) {
+      case 0:
+        return ""
+        break;
+      case 1:
+      if(sec == 0){return "десять"}
+      else{return " "}
+
+        break;
+        case 2:
+          return "двадцять"
+          break;
+          case 3:
+            return "тридцять"
+            break;
+            case 4:
+              return "сорок"
+              break;
+              case 5:
+                return "п'ятдесят"
+                break;
+                case 6:
+                  return "шістдесят"
+                  break;
+
+
+    }
+  }
+  function ody(ss){
+     if(fir === 1) {
+         switch (ss) {
+
+             case 0:
+                 return "десять років"
+                 break;
+             case 1:
+                 return "одинадцять рік"
+                 break;
+             case 2:
+                 return "дванадцять років"
+                 break;
+             case 3:
+                 return "тринадцять років"
+                 break;
+             case 4:
+                 return "чотирнадцять років"
+                 break;
+             case 5:
+                 return "п'ятнадцять років"
+                 break;
+             case 6:
+                 return "шістнадцять років"
+                 break;
+             case 7:
+                 return "сімнадцять років"
+                 break;
+             case 8:
+                 return "вісімнадцять років"
+                 break;
+             case 9:
+                 return "дев'ятнадцять років"
+                 break;
+         }
+
+     }
+
+      else{
+
+         switch (ss) {
+
+      case 0:
+        return " років"
+        break;
+      case 1:
+        return " один рік"
+        break;
+        case 2:
+          return " два роки"
+          break;
+          case 3:
+            return " три роки"
+            break;
+            case 4:
+              return " чотири роки"
+              break;
+              case 5:
+                return " п'ять років"
+                break;
+                case 6:
+                  return " шість років"
+                  break;
+                  case 7:
+                    return " сім років"
+                    break;
+                    case 8:
+                      return " вісім років"
+                      break;
+                      case 9:
+                        return " дев'ять років"
+                        break;
+                     }
+
+
+    }
+  }
+
+  let ll = des(fir);
+  let ww = ody(sec);
+  alert(ll + ww)
+
+
+
+</script>
+
+
+</body>
+</html>
